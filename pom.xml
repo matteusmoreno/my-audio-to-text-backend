@@ -55,9 +55,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.google.cloud</groupId>
-			<artifactId>google-cloud-speech</artifactId>
-			<version>4.58.0</version>
+			<groupId>com.alphacephei</groupId>
+			<artifactId>vosk</artifactId>
+			<version>0.3.45</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
