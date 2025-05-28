@@ -19,7 +19,8 @@ public class CorsConfig {
                                 "http://localhost:5500",
                                 "http://myaudiototext.com",
                                 "https://myaudiototext.com",
-                                "http://127.0.0.1:5500"
+                                "http://127.0.0.1:5500",
+                                "www.myaudiototext.com"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")

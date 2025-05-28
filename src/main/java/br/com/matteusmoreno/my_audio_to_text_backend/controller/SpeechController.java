@@ -21,8 +21,8 @@ public class SpeechController {
     }
 
     @PostMapping(value = "/recognize", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public String recognizeAudio(@RequestParam("file") MultipartFile file) throws IOException, InterruptedException {
-        return recognitionService.recognize(file.getInputStream());
+    public String recognizeAudio(@RequestParam("file") MultipartFile file, String language) throws IOException, InterruptedException {
+        return recognitionService.recognize(file.getInputStream(), language);
     }
 }
 
